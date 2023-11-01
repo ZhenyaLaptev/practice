@@ -9,6 +9,7 @@ int main()
 	dobchik = 1;
 	if (pow(y, 3) + 3 == 0)
 	{
+		Sleep(1000);
 		cout << "error";
 	}
 	else
@@ -18,6 +19,7 @@ int main()
 			dobchik *= pow(n, 3);
 		}
 		Z = (sin(y) + dobchik + 2) / (pow(y, 3) + 3);
+		Sleep(1000);
 		cout << "Z=" << Z;
 	}
 }
